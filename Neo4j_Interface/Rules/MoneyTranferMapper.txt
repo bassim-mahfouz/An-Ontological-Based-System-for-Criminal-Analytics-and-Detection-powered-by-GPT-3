@@ -1,0 +1,3 @@
+Person#0:name-String,1:id-String
+Travel_R
+Trip#2:ticketNumber-Integer,3:destination-String,4:startDate-Date,5:endDate-Date,6:departureAirport-String,7:arrivalAirport-String

@@ -1,0 +1,20 @@
+<div class="toolbar">
+  <img src="assets/gpt-logo.png" alt="GPT Logo" class="logo">
+</div>
+
+<form class="custom-form">
+  <h2 class="form-title">Prompt</h2>
+  <div class="input-wrapper">
+    <input type="text" placeholder="Search" [(ngModel)]="prompt" name="qry" class="question-input">
+    <button (click)="onSearch()" class="search-button">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </div>
+  <br/>
+  <br/>
+  <h2 class="form-title">Answer</h2>
+  <textarea placeholder="Answer" [(ngModel)]="answer" name="ans" class="answer-textarea"></textarea>
+</form>
